@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="crea_Brani" Content="Crea Brano" HorizontalAlignment="Left" Margin="23,62,0,0" VerticalAlignment="Top" Height="38" Width="144"/>
+        <Button x:Name="aggiungi_Brano" Content="agguingi al cd" HorizontalAlignment="Left" Margin="601,58,0,0" VerticalAlignment="Top" Height="46" Width="132"/>
+        <RadioButton Content="stampa cd" Margin="400,88,176,288"/>
+        <RadioButton Content="To string" Margin="240,52,336,324"/>
+        <RadioButton Content=" Short song" Margin="400,50,288,351"></RadioButton>
+        <RadioButton Content="durata totale" Margin="238,85,338,291"/>
+
+        <Label Content="Label" Margin="240,185,310,58" Name ="lbl_Visualizza"  />
+        <TextBox TextWrapping="Wrap" Width="120" Margin="35,185,645,228" Name="Tbx_titolo" />
+        <TextBox TextWrapping="Wrap"  Width="120" Margin="35,261,645,151" Name="Tbx_autore" />
+        <Label Content="aggiungi titolo:" Margin="35,155,645,254"/>
+        <Label Content="aggiungi autore:" Margin="35,230,645,178"/>
+        <TextBox TextWrapping="Wrap"  Width="120" Margin="35,354,645,57" Name="Tbx_durata" />
+        <Label Content="aggiungi durata:" Margin="35,323,645,84"/>
+        <Label Content="Label" Margin="542,212,43,58"/>
+        <Label Content="cd in creazione " Margin="574,162,106,247"/>
+
 
     </Grid>
 </Window>
